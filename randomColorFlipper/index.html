@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color Flipper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="page__header">
+        <h1>Color Flipper</h1>
+        <div class="page__links">
+          <span id="hex__page">HEX</span>
+          <span id="rgb__page">RGB</span>
+          <span id="hsl__page">HSL</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- body -->
+    <main>
+      <section class="main__wrapper" id="hex__wrapper">
+        <p>Change the background color by clicking this button.</p>
+        <button id="hex__color">#babfff</button>
+      </section>
+      <section class="main__wrapper" id="rgb__wrapper">
+        <p>Change the background color by clicking this button.</p>
+        <button id="rgb__color">rgb(120,191,255)</button>
+      </section>
+      <section class="main__wrapper" id="hsl__wrapper">
+        <p>Change the background color by clicking this button.</p>
+        <button id="hsl__color">hsl(26,100%,86%)</button>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
